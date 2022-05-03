@@ -1,0 +1,133 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+}
+
+.info h3 {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.quote div {
+
+}
+
+footer {
+    background: #1f2937;
+    color: #F9FAF8;
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 0;
+    right: 0;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100px;
+    padding: 16px;
+    background-color: #E5E7EB;
+}
+
+.quote figcaption {
+    font-size: 36px;
+    margin-left: 750px;
+    font-weight: 800;
+}
+
+.container header {
+    display: flex;
+    margin: 16px;
+    margin-left: 100px;
+    flex-direction: row;
+    align-items: center;
+    gap: 800px;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.container h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.container h2 {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.container ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 0;
+    gap: 32px;
+    list-style-type: none;
+    font-size: 18px;
+    color: #f9faf8;
+}
+
+.secondary-text {
+    margin-left: 350px;
+}
+
+.secondary-text h1 {
+    margin: 24px;
+}
+
+.secondary-text h2 {
+    margin: 24px;
+}
+
+
+img {
+    border-radius: 8px;
+    padding: 80px;
+    background-color: gray;
+    position: relative;
+    left: 500px;
+    bottom: 200px;
+}
+
+.container button {
+    display: flex;
+    width: 80px;
+    border-radius: 6px;
+    justify-content: center;
+    align-self: center;
+    position: relative;
+    left: 23px;
+    bottom: 20px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.call-to-action {
+    padding: 32px;
+    background-color: #3882f6;
+    margin: 200px;
+    margin-bottom: 32px;
+}
+
+.call-to-action button {
+    margin-left: 250px;
+    background-color: #3882f6;
+    color: white;
+    width: 90px;
+    border-radius: 8px;
+    border: 2px solid;
+}
